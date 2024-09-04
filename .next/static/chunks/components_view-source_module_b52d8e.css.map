@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["[project]/components/view-source.module.css"],"sourcesContent":[".svg {\n  position: absolute;\n  top: 0;\n  right: 0;\n}\n.arm {\n  transform-origin: 130px 106px;\n}\n\n.svg:hover .arm {\n  animation: wave 560ms ease-in-out;\n}\n\n@keyframes wave {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  20% {\n    transform: rotate(-25deg);\n  }\n\n  40% {\n    transform: rotate(10deg);\n  }\n\n  60% {\n    transform: rotate(-25deg);\n  }\n\n  80% {\n    transform: rotate(10deg);\n  }\n\n  100% {\n    transform: rotate(0deg);\n  }\n}\n\n@media (max-width: 500px) {\n  .svg:hover .arm {\n    animation: none;\n  }\n\n  .svg:hover .arm {\n    animation: wave 560ms ease-in-out;\n  }\n}\n"],"names":[],"mappings":"AAAA;;;;;;AAKA;;;;AAIA;;;;AAIA;;;;;;;;;;;;;;;;;;;;;;;;;;AA0BA;EACE;;;;EAIA"}},
+    {"offset": {"line": 50, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
