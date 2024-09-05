@@ -1,19 +1,15 @@
 import React from 'react';
+const publicUrl = process.env.PUBLIC_URL || '';
 
-const photos = [
-  {
-    src: `${process.env.PUBLIC_URL}/images/shrisha1.jpg`,
-    title: 'Shrisha1',
-  },
-  {
-    src: `${process.env.PUBLIC_URL}/images/shrisha2.jpg`,
-    title: 'Shrisha2',
-  },
-  {
-    src: `${process.env.PUBLIC_URL}/images/shrisha3.jpg`,
-    title: 'Shrisha3',
-  },
-];
+const photos = [];
+const imageDefault = "shrisha";
+for (let i = 1; i <= 5; i++) {
+	let pt = {
+		src: publicUrl + imageDefault + i + ".jpg",
+		title: imageDefault + i,
+	}
+    photos.push(pt);
+}
 
 const PhotoAlbum = () => {
   return (
@@ -21,6 +17,7 @@ const PhotoAlbum = () => {
       {photos.map((photo, index) => (
         <div key={index} style={styles.photoContainer}>
           <img src={photo.src} alt={photo.title} style={styles.photo} />
+		  <p>{photo.src}</p>
           <p>{photo.title}</p>
         </div>
       ))}
