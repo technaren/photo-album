@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["[project]/styles.module.css"],"sourcesContent":[".container {\n  padding: 4rem 1rem;\n}\n\n.container p {\n  margin: 1.5rem 0;\n}\n\n.card {\n  max-width: 60rem;\n  box-shadow: -10px 10px 80px rgba(255, 255, 255, 0.1);\n  border: 1px solid #333;\n  border-radius: 8px;\n  padding: 2rem;\n  margin: 0 auto;\n}\n\n.inlineCode {\n  color: #be00ff;\n  font-size: 16px;\n  white-space: pre-wrap;\n}\n\n.inlineCode::before,\n.inlineCode::after {\n  content: \"`\";\n}\n\n.hr {\n  border: 0;\n  border-top: 1px solid #333;\n  margin: 1.5rem 0;\n}\n\n.bgWrap {\n  position: fixed;\n  height: 100vh;\n  width: 100vw;\n  overflow: hidden;\n  z-index: -1;\n}\n\n.bgText {\n  margin: 0;\n  font-size: 2rem;\n  line-height: 3rem;\n  text-align: center;\n  padding-top: 40vh;\n  text-shadow: 1px 1px 1px #3c5c5e;\n}\n\n.imgDark {\n  display: none;\n}\n\n@media (prefers-color-scheme: dark) {\n  .imgLight {\n    display: none;\n  }\n\n  .imgDark {\n    display: unset;\n  }\n}\n"],"names":[],"mappings":"AAAA;;;;AAIA;;;;AAIA;;;;;;;;;AASA;;;;;;AAMA;;;;AAKA;;;;;;AAMA;;;;;;;;AAQA;;;;;;;;;AASA;;;;AAIA;EACE;;;;EAIA"}},
-    {"offset": {"line": 64, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}
